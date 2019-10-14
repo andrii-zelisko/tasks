@@ -22,9 +22,7 @@ for ( let i = 0; i < 2; i++ ) {
         && a !== '' && b !== '' && a.length < 50 && b.length < 10 ) {
         appData.expenses[a] = b;    
     } else {
-        let a = prompt( 'Введите обязательную статью расходов в этом месяце', 'todo smth' );
-        let b = Number( prompt( 'Во сколько обойдется?', '10' ) );
-        appData.expenses[a] = b;
+       i--;
     } 
 }
 
@@ -40,9 +38,7 @@ do {
         && a !== '' && b !== '' && a.length < 50 && b.length < 10 ) {
         appData.expenses[a] = b;    
     } else {
-        let a = prompt( 'Введите обязательную статью расходов в этом месяце', 'todo smth' );
-        let b = Number( prompt( 'Во сколько обойдется?', '10' ) );
-        appData.expenses[a] = b;
+       i--;
     }
     
     i1++;
@@ -59,9 +55,7 @@ while (  i2 < 2 ) {
         && a !== '' && b !== '' && a.length < 50 && b.length < 10 ) {
         appData.expenses[a] = b;    
     } else {
-        let a = prompt( 'Введите обязательную статью расходов в этом месяце', 'todo smth' );
-        let b = Number( prompt( 'Во сколько обойдется?', '10' ) );
-        appData.expenses[a] = b;
+       i--;
     } 
     i2++;
 }
